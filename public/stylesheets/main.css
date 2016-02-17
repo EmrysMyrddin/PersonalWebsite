@@ -32,7 +32,7 @@ a, a:hover
 .menu
 {
     background: #333333;
-    border-image: url("assets/images/vertical_bars.svg") 30 30 round;
+    border-image: url("/assets/images/vertical_bars.svg");
 }
 
 .menu-item
