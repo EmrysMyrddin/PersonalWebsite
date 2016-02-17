@@ -21,7 +21,7 @@ body {
 }
 
 #main-container {
-    color: white;
+    color: whitesmoke;
 }
 
 a, a:hover {
@@ -36,6 +36,7 @@ a, a:hover {
 
 .menu {
     background: #333333;
+    height: 100%;
     /*border-image: url("/assets/images/vertical_bars.svg");*/
 }
 
@@ -76,5 +77,10 @@ a, a:hover {
 #main-container,
 #navigation {
     height: 100%;
+}
+
+#content
+{
+    padding-top: 25px;
 }
 
