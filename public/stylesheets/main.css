@@ -11,9 +11,17 @@
 
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: #666;
     color: whitesmoke;
+}
+
+#main-container {
+    color: white;
 }
 
 a, a:hover {
