@@ -6,20 +6,35 @@
 	<head>
         <title>@title</title>
 
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="@routes.Assets.versioned("libs/materialize/css/materialize.min.css")"  media="screen,projection"/>
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+		<link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/foundation.min.css")">
+		<link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/main.css")">
+
+		<link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
-		@menu()
-		<div class="container">
-			@content
+		<div class="row collapse expanded">
+			<div class="column small-4">
+				<div class="row collapse">
+					<div class="column small-9 small-offset-3">
+						<h3 class="customTitle">Valentin<br>COCAUD</h3>
+					</div>
+				</div>
+				<div class="row collapse">
+					<div class="column small-7 end menu">
+						@menu()
+					</div>
+				</div>
+			</div>
+			<div class="column small-8">
+				@content
+			</div>
 		</div>
+
+		<script src="@routes.Assets.versioned("libs/lodash.js")"></script>
 		<script type="text/javascript" src="@routes.Assets.versioned("libs/jquery-2.2.0.min.js")"></script>
-		<script type="text/javascript" src="@routes.Assets.versioned("libs/materialize/js/materialize.min.js")"></script>
-		<script type="text/javascript" src="@routes.Assets.versioned("js/main.js")"></script>
+		<script src="@routes.Assets.versioned("libs/foundation.min.js")"></script>
 		@scripts
 	</body>
 </html>

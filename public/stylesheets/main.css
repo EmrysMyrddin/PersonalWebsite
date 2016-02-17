@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'akbaalregular';
+    src: url('/assets/font/akbaal-webfont.eot');
+    src: url('/assets/font/akbaal-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/font/akbaal-webfont.woff2') format('woff2'),
+    url('/assets/font/akbaal-webfont.woff') format('woff'),
+    url('/assets/font/akbaal-webfont.ttf') format('truetype'),
+    url('/assets/font/akbaal-webfont.svg#akbaalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background: #666;
+    color : whitesmoke;
+}
+
+a, a:hover
+{
+    color : whitesmoke;
+}
+
+.customTitle
+{
+    font-family: akbaalregular, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu
+{
+    background: #333333;
+    border-image: url("assets/images/vertical_bars.svg") 30 30 round;
+}
+
+.menu-item
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
