@@ -11,32 +11,31 @@
 
 }
 
-body
-{
+html, body {
+    height: 100%;
+}
+
+body {
     background: #666;
-    color : whitesmoke;
+    color: whitesmoke;
 }
 
-a, a:hover
-{
-    color : whitesmoke;
+a, a:hover {
+    color: whitesmoke;
 }
 
-.customTitle
-{
+.customTitle {
     font-family: akbaalregular, sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.menu
-{
+.menu {
     background: #333333;
     border-image: url("/assets/images/vertical_bars.svg");
 }
 
-.menu-item
-{
+.menu-item {
     padding-top: 15px;
     padding-bottom: 15px;
 }
